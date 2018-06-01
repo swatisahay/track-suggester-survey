@@ -7,47 +7,70 @@ $(function() {
     var serverside = parseInt($("input:radio[name=server]:checked").val());
     var ininteractive = parseInt($("input:radio[name=interactive]:checked").val());
 
-    //backend is selected
+    //input val= 0,0,0,0,0
     if((!webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(!ininteractive)){
       $(".initial-hide").hide();
       $("#csharp").show();
     }
+
+    //input val= 1,1,1,1,1
     else if((webdevelopment)&&(busi)&&(webdesign)&&(serverside)&&(ininteractive))  {
       $(".initial-hide").hide();
       alert("Sorry there are no tracks available for you ")
     }
+
+    //input val= 0,0,1,1,1
     else if((!webdevelopment)&&(!busi)&&(webdesign)&&(serverside)&&(ininteractive)){
       $(".initial-hide").hide();
       $("#ruby").show();
     }
+
+    //input val= 0,0,0,1,0
     else if ((!webdevelopment)&&(!busi)&&(!webdesign)&&(serverside)&&(!ininteractive)){
       $(".initial-hide").hide();
       $("#php").show();
     }
+
+    //input val= 0,0,1,0,1
     else if ((webdevelopment)&&(busi)&&(!webdesign)&&(serverside)&&(!ininteractive)) {
       $(".initial-hide").hide();
       $("#css").show();
     }
+
+    //input val= 0,1,0,0,0
     else if ((!webdevelopment)&&(busi)&&(!webdesign)&&(!serverside)&&(!ininteractive)) {
       $(".initial-hide").hide();
       $("#php").show();
     }
 
+    //input val= 0,0,0,0,1
     else if ((!webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(ininteractive)) {
       $(".initial-hide").hide();
       $("#csharp").show();
     }
-    else if ((webdevelopment)&&(busi)&&(webdesign)&&(!serverside)&&(!ininteractive)) {
+
+    //input val= 0,1,1,0,0
+    else if ((!webdevelopment)&&(busi)&&(webdesign)&&(!serverside)&&(!ininteractive)) {
       $(".initial-hide").hide();
       $("#php").show();
     }
+
+    //input val= 1,0,0,0,0
     else if ((webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(!ininteractive)) {
       $(".initial-hide").hide();
       $("#ruby").show();
     }
-    else ((webdevelopment)&&(busi)&&(!webdesign)&&(serverside)&&(!ininterasctive)) {
+
+    //input val= 1,1,0,0,0
+    else if((webdevelopment)&&(busi)&&(!webdesign)&&(serverside)&&(!ininterasctive)) {
       $(".initial-hide").hide();
       $("#css").show();
+    }
+
+    //input val= 1,1,1,0,0
+    else ((webdevelopment)&&(busi)&&(webdesign)&&(!serverside)&&(!ininterasctive)) {
+      $(".initial-hide").hide();
+      alert("sorry !! Your answers doesnot have any match in our library")
     }
 
   });

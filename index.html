@@ -11,103 +11,103 @@
 <body class="container-fluid">
   <div class="center-text">
 
-  <h1 class="jumbotron">Track Suggesster Survey</h1>
-  <p>This is a short survey to know which programming language track you can take based on your interest !</p>
+    <h1 class="jumbotron">Track Suggesster Survey</h1>
+    <p>This is a short survey to know which programming language track you can take based on your interest !</p>
+    <!-- form inputs -->
+    <div class="form-group well">
+      <label for="development">What kind of web development you are interested in:</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="development" value="0" checked>
+          Backend development
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="development" value="1">
+          Front end development
+        </label>
+      </div>
 
-  <div class="form-group well">
-    <label for="development">What kind of web development you are interested in:</label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="development" value="0" checked>
-        Backend development
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="development" value="1">
-        Front end development
-      </label>
+      <label for="business">Are you interested in creating business software</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="business" value="0" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="business" value="1">
+          No
+        </label>
+      </div>
+
+      <label for="design">Are you interested in Web-Design</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="design" value="0" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="design" value="1">
+          No
+        </label>
+      </div>
+
+      <label for="server">Are you interested in server side programming</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="server" value="0" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="server" value="1">
+          No
+        </label>
+      </div>
+
+      <label for="interactive">Are you interested in creating interactive web pages</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="interactive" value="0" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="interactive" value="1">
+          No
+        </label>
+      </div>
+      <button id="btn-submit" class="btn btn-dark">Submit!</button>
     </div>
 
-    <label for="business">Are you interested in creating business software</label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="business" value="0" checked>
-        Yes
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="business" value="1">
-        No
-      </label>
-    </div>
+    <div class="border ">
 
-    <label for="design">Are you interested in Web-Design</label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="design" value="0" checked>
-        Yes
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="design" value="1">
-        No
-      </label>
-    </div>
 
-    <label for="server">Are you interested in server side programming</label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="server" value="0" checked>
-        Yes
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="server" value="1">
-        No
-      </label>
-    </div>
+      <!-- Answers to the form input -->
+      <div id="csharp" class="initial-hide">
+        <h2>The suitable track for you based on your answers is C#/.NET</h2>
 
-    <label for="interactive">Are you interested in creating interactive web pages</label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="interactive" value="0" checked>
-        Yes
-      </label>
+      </div>
+      <div id="ruby" class="initial-hide">
+        <h2>The suitable track for you based on your answers is Ruby/Rails</h2>
+
+      </div>
+      <div id="css" class="initial-hide">
+        <h2>The suitable track for you based on your answers is CSS/React</h2>
+
+      </div>
+      <div id="php" class="initial-hide">
+        <h2>The suitable track for you based on your answers is PHP</h2>
+      </div>
     </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="interactive" value="1">
-        No
-      </label>
-    </div>
-    <button id="btn-submit" class="btn btn-dark">Submit!</button>
   </div>
-
-  <div class="border ">
-
-
-
-  <div id="csharp" class="initial-hide">
-    <h2>The suitable track for you based on your answers is C#/.NET</h2>
-
-  </div>
-  <div id="ruby" class="initial-hide">
-    <h2>The suitable track for you based on your answers is Ruby/Rails</h2>
-
-  </div>
-  <div id="css" class="initial-hide">
-    <h2>The suitable track for you based on your answers is CSS/React</h2>
-
-  </div>
-  <div id="php" class="initial-hide">
-    <h2>The suitable track for you based on your answers is PHP</h2>
-  </div>
-  </div>
-</div>
 
 
 </div>
