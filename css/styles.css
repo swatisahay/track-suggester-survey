@@ -3,11 +3,15 @@
 }
 .center-text{
   text-align: center;
-  color: blue
+  color: black;
 }
 body{
   height: 100%;
   width: 100%;
   background: url('../img/download.jpg');
 
+}
+.btn-dark{
+  color: white;
+  background: black;
 }
