@@ -1,3 +1,13 @@
 .initial-hide{
   display: none;
 }
+.center-text{
+  text-align: center;
+  color: blue
+}
+body{
+  height: 100%;
+  width: 100%;
+  background: url('../img/download.jpg');
+
+}

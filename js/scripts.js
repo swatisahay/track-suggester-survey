@@ -8,38 +8,38 @@ $(function() {
     var ininteractive = parseInt($("input:radio[name=interactive]:checked").val());
 
     //backend is selected
-if((!webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(!ininteractive)){
-           $(".initial-hide").hide();
-           $("#csharp").show();
-         }
-else if((webdevelopment)&&(busi)&&(webdesign)&&(serverside)&&(ininteractive))  {
+    if((!webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(!ininteractive)){
+      $(".initial-hide").hide();
+      $("#csharp").show();
+    }
+    else if((webdevelopment)&&(busi)&&(webdesign)&&(serverside)&&(ininteractive))  {
       $(".initial-hide").hide();
       $("#css").show();
     }
-else if((!webdevelopment)&&(!busi)&&(webdesign)&&(serverside)&&(ininteractive)){
-        $(".initial-hide").hide();
-        $("#ruby").show();
-}
-else if ((!webdevelopment)&&(!busi)&&(!webdesign)&&(serverside)&&(!ininteractive)){
-  $(".initial-hide").hide();
-  $("#php").show();
-}
-else if ((webdevelopment)&&(busi)&&(!webdesign)&&(serverside)&&(!ininteractive)) {
-  $(".initial-hide").hide();
-  $("#css").show();
-}
-else if ((!webdevelopment)&&(busi)&&(!webdesign)&&(!serverside)&&(!ininteractive)) {
-  $(".initial-hide").hide();
-  $("#php").show();
-}
-else if ((!webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(ininteractive)) {
-  $(".initial-hide").hide();
-  $("#csharp").show();
-}
-else if ((webdevelopment)&&(busi)&&(webdesign)&&(!serverside)&&(!ininteractive)) {
-  $(".initial-hide").hide();
-  $("#php").show();
-}
+    else if((!webdevelopment)&&(!busi)&&(webdesign)&&(serverside)&&(ininteractive)){
+      $(".initial-hide").hide();
+      $("#ruby").show();
+    }
+    else if ((!webdevelopment)&&(!busi)&&(!webdesign)&&(serverside)&&(!ininteractive)){
+      $(".initial-hide").hide();
+      $("#php").show();
+    }
+    else if ((webdevelopment)&&(busi)&&(!webdesign)&&(serverside)&&(!ininteractive)) {
+      $(".initial-hide").hide();
+      $("#css").show();
+    }
+    else if ((!webdevelopment)&&(busi)&&(!webdesign)&&(!serverside)&&(!ininteractive)) {
+      $(".initial-hide").hide();
+      $("#php").show();
+    }
+    else if ((!webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(ininteractive)) {
+      $(".initial-hide").hide();
+      $("#csharp").show();
+    }
+    else if ((webdevelopment)&&(busi)&&(webdesign)&&(!serverside)&&(!ininteractive)) {
+      $(".initial-hide").hide();
+      $("#php").show();
+    }
 
 
 
