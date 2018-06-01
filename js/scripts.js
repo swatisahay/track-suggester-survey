@@ -14,7 +14,7 @@ $(function() {
     }
     else if((webdevelopment)&&(busi)&&(webdesign)&&(serverside)&&(ininteractive))  {
       $(".initial-hide").hide();
-      $("#css").show();
+      alert("Sorry there are no tracks available for you ")
     }
     else if((!webdevelopment)&&(!busi)&&(webdesign)&&(serverside)&&(ininteractive)){
       $(".initial-hide").hide();
@@ -32,6 +32,7 @@ $(function() {
       $(".initial-hide").hide();
       $("#php").show();
     }
+
     else if ((!webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(ininteractive)) {
       $(".initial-hide").hide();
       $("#csharp").show();
@@ -40,14 +41,14 @@ $(function() {
       $(".initial-hide").hide();
       $("#php").show();
     }
-
-
-
-
-
-
-
-
+    else if ((webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(!ininteractive)) {
+      $(".initial-hide").hide();
+      $("#ruby").show();
+    }
+    else ((webdevelopment)&&(busi)&&(!webdesign)&&(serverside)&&(!ininterasctive)) {
+      $(".initial-hide").hide();
+      $("#css").show();
+    }
 
   });
 });

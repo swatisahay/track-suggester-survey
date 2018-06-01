@@ -3,15 +3,17 @@
 }
 .center-text{
   text-align: center;
-  color: black;
+  color: #800000;
+  font-weight: bold;
 }
-body{
-  height: 100%;
-  width: 100%;
-  background: url('../img/download.jpg');
 
-}
 .btn-dark{
   color: white;
   background: black;
+}
+.well{
+  background: url('../img/download.jpg')
+}
+.border{
+  border: 2px dotted #800000
 }
