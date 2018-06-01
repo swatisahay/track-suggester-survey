@@ -24,6 +24,22 @@ else if ((!webdevelopment)&&(!busi)&&(!webdesign)&&(serverside)&&(!ininteractive
   $(".initial-hide").hide();
   $("#php").show();
 }
+else if ((webdevelopment)&&(busi)&&(!webdesign)&&(serverside)&&(!ininteractive)) {
+  $(".initial-hide").hide();
+  $("#css").show();
+}
+else if ((!webdevelopment)&&(busi)&&(!webdesign)&&(!serverside)&&(!ininteractive)) {
+  $(".initial-hide").hide();
+  $("#php").show();
+}
+else if ((!webdevelopment)&&(!busi)&&(!webdesign)&&(!serverside)&&(ininteractive)) {
+  $(".initial-hide").hide();
+  $("#csharp").show();
+}
+else if ((webdevelopment)&&(busi)&&(webdesign)&&(!serverside)&&(!ininteractive)) {
+  $(".initial-hide").hide();
+  $("#php").show();
+}
 
 
 
